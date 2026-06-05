@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MathMind AI — AI-Powered Mathematics Learning Assistant</title>
+    <title>MathMind AI — AI-Powered Mathematics Assessment, Learning & Career Guidance</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,9 +12,10 @@
         <a href="#home" class="logo">MathMind AI</a>
         <nav class="nav-links">
           <a href="#home">Home</a>
+          <a href="#how-it-works">How It Works</a>
           <a href="#topics">Topics</a>
-          <a href="#ai-tutor">AI Tutor</a>
-          <a href="#about">About</a>
+          <a href="#careers">Careers</a>
+          <a href="#ai-mentor">AI Mentor</a>
           <a href="#contact">Contact</a>
         </nav>
         <button class="nav-toggle" aria-label="toggle navigation">
@@ -34,17 +35,20 @@
         </div>
         <div class="container hero-grid">
           <div class="hero-copy" data-anim>
-            <p class="eyebrow">AI-powered mathematics learning assistant</p>
+            <p class="eyebrow">AI-powered assessment & learning platform</p>
             <h1>
-              Making Mathematics Easier Through
+              Discover Your Mathematical Strengths with
               <span class="typing-text"></span>
             </h1>
+            <p class="hero-subtitle">
+              Discover Your Mathematical Strengths with Career Success
+            </p>
             <p class="hero-description">
-              Discover a premium AI study companion designed to help students understand math concepts faster, build confidence, and enjoy learning with smart explanations.
+              An AI-powered platform that assesses mathematical skills, identifies learning gaps, recommends learning resources, and suggests career pathways in mathematics, data science, and artificial intelligence.
             </p>
             <div class="hero-actions">
-              <a href="#topics" class="btn btn-primary">Explore Topics</a>
-              <a href="#ai-tutor" class="btn btn-secondary">Chat with AI</a>
+              <a href="#how-it-works" class="btn btn-primary">Start Assessment</a>
+              <a href="#careers" class="btn btn-secondary">Explore Careers</a>
             </div>
           </div>
 
@@ -52,9 +56,10 @@
             <div class="visual-card">
               <div class="visual-badge">AI + Math</div>
               <div class="visual-image">
-                <div class="image-placeholder">
-                  <span>AI Math Illustration</span>
-                </div>
+                <video class="visual-video" autoplay muted loop playsinline preload="metadata">
+                  <source src="assets/videos/MathMind%20AI%20%282%29.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <div class="visual-notes">
                 <div><strong>Smart Tutor</strong> responds instantly.</div>
@@ -65,75 +70,402 @@
         </div>
       </section>
 
+      <section class="how-it-works section" id="how-it-works" data-anim>
+        <div class="container">
+          <div class="section-header" data-anim>
+            <p class="section-label">Our Process</p>
+            <h2>How MathMind AI Works</h2>
+            <p class="section-subtitle">A simple 4-step journey toward mathematical excellence.</p>
+          </div>
+
+          <div class="how-grid" data-anim>
+            <div class="how-card" data-anim>
+              <div class="how-icon">📋</div>
+              <h3>Take Assessment</h3>
+              <p>Choose a topic and difficulty level to evaluate your mathematical understanding.</p>
+              <div class="how-step-number">1</div>
+            </div>
+
+            <div class="how-card" data-anim>
+              <div class="how-icon">📊</div>
+              <h3>Analyze Performance</h3>
+              <p>Receive instant scoring and detailed performance insights into your strengths.</p>
+              <div class="how-step-number">2</div>
+            </div>
+
+            <div class="how-card" data-anim>
+              <div class="how-icon">📚</div>
+              <h3>Get Recommendations</h3>
+              <p>Receive personalized books and learning resources tailored to your needs.</p>
+              <div class="how-step-number">3</div>
+            </div>
+
+            <div class="how-card" data-anim>
+              <div class="how-icon">🎯</div>
+              <h3>Explore Careers</h3>
+              <p>Discover career opportunities based on your mathematical strengths and interests.</p>
+              <div class="how-step-number">4</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="about section" id="about" data-anim>
-        <div class="container section-grid">
-          <div class="section-header">
+        <div class="container">
+          <div class="section-header" data-anim>
             <p class="section-label">About MathMind AI</p>
             <h2>Transforming math confidence with intuitive AI support</h2>
           </div>
-          <div class="about-text">
-            <p>
-              MathMind AI is built to help students learn mathematics with clarity and confidence. Our platform uses artificial intelligence to simplify complex topics, provide step-by-step guidance, and make every concept feel approachable.
-            </p>
-            <p>
-              We believe every student can excel in math. MathMind AI reduces fear by offering patient explanations, personalized recommendations, and a calm, supportive digital learning environment.
-            </p>
+
+          <div class="about-grid" data-anim>
+            <div class="about-media">
+              <img src="assets/images/AI.png" alt="AI illustration" />
+            </div>
+
+            <div class="about-text">
+              <p>
+                MathMind AI is built to help students learn mathematics with clarity and confidence. Our platform uses artificial intelligence to simplify complex topics, provide step-by-step guidance, and make every concept feel approachable.
+              </p>
+              <p>
+                We believe every student can excel in math. MathMind AI reduces fear by offering patient explanations, personalized recommendations, and a calm, supportive digital learning environment.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="topics section" id="topics">
-        <div class="container section-header" data-anim>
-          <p class="section-label">Math Topics</p>
-          <h2>Explore essential math domains with confidence</h2>
-        </div>
-        <div class="container cards-grid">
-          <article class="topic-card" data-anim>
-            <div class="card-icon">x²</div>
-            <h3>Algebra</h3>
-            <p>Understand expressions, equations, and problem solving with clear AI support.</p>
-          </article>
-          <article class="topic-card" data-anim>
-            <div class="card-icon">∫</div>
-            <h3>Calculus</h3>
-            <p>Learn derivatives, integrals, and limits through guided intuition and examples.</p>
-          </article>
-          <article class="topic-card" data-anim>
-            <div class="card-icon">sin</div>
-            <h3>Trigonometry</h3>
-            <p>Master angles, triangles, and waves with visual explanations and practice tips.</p>
-          </article>
-          <article class="topic-card" data-anim>
-            <div class="card-icon">σ</div>
-            <h3>Statistics</h3>
-            <p>Gain insight into data, probability, and real-world analysis with easy examples.</p>
-          </article>
-          <article class="topic-card" data-anim>
-            <div class="card-icon">∂</div>
-            <h3>Differential Equations</h3>
-            <p>Explore dynamic systems and solutions with step-by-step AI reasoning.</p>
-          </article>
+        <div class="container">
+          <div class="section-header" data-anim>
+            <p class="section-label">Explore Mathematics Topics</p>
+            <h2>Interactive AI-powered learning for every mathematical concept.</h2>
+          </div>
+
+          <div class="topics-frame" data-anim>
+            <div class="topics-background" aria-hidden="true">
+              <span class="symbol symbol-1">∫</span>
+              <span class="symbol symbol-2">π</span>
+              <span class="symbol symbol-3">Σ</span>
+              <span class="symbol symbol-4">⊿</span>
+              <span class="symbol symbol-5">↗</span>
+            </div>
+
+            <div class="cards-grid">
+              <article class="topic-card" data-anim>
+                <div class="card-border"></div>
+                <div class="topic-head">
+                  <div class="topic-icon">x²</div>
+                  <span>Algebra</span>
+                </div>
+                <h3>Algebra</h3>
+                <p>Build symbolic reasoning and equation mastery with intelligent AI support.</p>
+                <p class="topic-career">📈 Career: Software Development</p>
+                <button class="btn btn-card" type="button">Learn More</button>
+              </article>
+
+              <article class="topic-card" data-anim>
+                <div class="card-border"></div>
+                <div class="topic-head">
+                  <div class="topic-icon">∫</div>
+                  <span>Calculus</span>
+                </div>
+                <h3>Calculus</h3>
+                <p>Explore limits, derivatives, and integrals through fluid AI-guided intuition.</p>
+                <p class="topic-career">🔧 Career: Engineering & Scientific Computing</p>
+                <button class="btn btn-card" type="button">Learn More</button>
+              </article>
+
+              <article class="topic-card" data-anim>
+                <div class="card-border"></div>
+                <div class="topic-head">
+                  <div class="topic-icon">sin</div>
+                  <span>Trigonometry</span>
+                </div>
+                <h3>Trigonometry</h3>
+                <p>Decode angles, waves, and unit circle patterns with interactive visual cues.</p>
+                <p class="topic-career">🏗️ Career: Architecture & Engineering</p>
+                <button class="btn btn-card" type="button">Learn More</button>
+              </article>
+
+              <article class="topic-card" data-anim>
+                <div class="card-border"></div>
+                <div class="topic-head">
+                  <div class="topic-icon">σ</div>
+                  <span>Statistics</span>
+                </div>
+                <h3>Statistics</h3>
+                <p>Understand data, probability, and inference through smooth analytical storytelling.</p>
+                <p class="topic-career">📊 Career: Data Science & Analytics</p>
+                <button class="btn btn-card" type="button">Learn More</button>
+              </article>
+
+              <article class="topic-card" data-anim>
+                <div class="card-border"></div>
+                <div class="topic-head">
+                  <div class="topic-icon">⊿</div>
+                  <span>Geometry</span>
+                </div>
+                <h3>Geometry</h3>
+                <p>Visualize shapes, angles, and spatial reasoning with futuristic AI diagrams.</p>
+                <p class="topic-career">🎨 Career: Design & Engineering</p>
+                <button class="btn btn-card" type="button">Learn More</button>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="ai-tutor section" id="ai-tutor" data-anim>
-        <div class="container section-grid">
-          <div>
-            <p class="section-label">AI Tutor</p>
-            <h2>Ask mathematical questions and receive simple explanations instantly.</h2>
+      <section class="math-ai section" id="math-ai" data-anim>
+        <div class="container">
+          <div class="section-header" data-anim>
+            <p class="section-label">Connection</p>
+            <h2>How Mathematics Powers Artificial Intelligence</h2>
+          </div>
+
+          <div class="math-ai-grid" data-anim>
+            <div class="math-ai-card" data-anim>
+              <div class="math-ai-icon">📊</div>
+              <h3>Statistics</h3>
+              <p>Used in Machine Learning & Data Analysis</p>
+            </div>
+
+            <div class="math-ai-connector"></div>
+
+            <div class="math-ai-card" data-anim>
+              <div class="math-ai-icon">✖️</div>
+              <h3>Algebra</h3>
+              <p>Used in Neural Networks</p>
+            </div>
+
+            <div class="math-ai-connector"></div>
+
+            <div class="math-ai-card" data-anim>
+              <div class="math-ai-icon">∇</div>
+              <h3>Calculus</h3>
+              <p>Used in AI Optimization Algorithms</p>
+            </div>
+
+            <div class="math-ai-connector"></div>
+
+            <div class="math-ai-card" data-anim>
+              <div class="math-ai-icon">🎲</div>
+              <h3>Probability</h3>
+              <p>Used in Predictions & Decision Making</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="careers section" id="careers" data-anim>
+        <div class="container">
+          <div class="section-header" data-anim>
+            <p class="section-label">Opportunities</p>
+            <h2>Future Career Opportunities</h2>
+            <p class="section-subtitle">Discover the rewarding careers that leverage mathematics and AI</p>
+          </div>
+
+          <div class="careers-grid" data-anim>
+            <div class="career-card" data-anim>
+              <div class="career-icon">📊</div>
+              <h3>Data Scientist</h3>
+              <p>Uses statistics and machine learning to extract insights from data and drive strategic decisions.</p>
+            </div>
+
+            <div class="career-card" data-anim>
+              <div class="career-icon">🤖</div>
+              <h3>AI Engineer</h3>
+              <p>Builds intelligent systems using mathematics and artificial intelligence to solve complex problems.</p>
+            </div>
+
+            <div class="career-card" data-anim>
+              <div class="career-icon">💻</div>
+              <h3>Software Developer</h3>
+              <p>Uses logical thinking and algebraic concepts to solve real-world problems through code.</p>
+            </div>
+
+            <div class="career-card" data-anim>
+              <div class="career-icon">🔬</div>
+              <h3>Research Mathematician</h3>
+              <p>Develops mathematical models for science and technology that advance human knowledge.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="performance-demo section" id="performance" data-anim>
+        <div class="container">
+          <div class="section-header" data-anim>
+            <p class="section-label">Dashboard</p>
+            <h2>AI Performance Analysis</h2>
+            <p class="section-subtitle">See how our AI evaluates and recommends your learning path</p>
+          </div>
+
+          <div class="demo-grid" data-anim>
+            <div class="performance-chart">
+              <div class="chart-title">Your Assessment Results</div>
+              
+              <div class="progress-item">
+                <div class="progress-label">
+                  <span>Algebra</span>
+                  <span class="progress-value">90%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="progress-item">
+                <div class="progress-label">
+                  <span>Calculus</span>
+                  <span class="progress-value">75%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%;"></div>
+                </div>
+              </div>
+
+              <div class="progress-item">
+                <div class="progress-label">
+                  <span>Statistics</span>
+                  <span class="progress-value">85%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="progress-item">
+                <div class="progress-label">
+                  <span>Trigonometry</span>
+                  <span class="progress-value">60%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 60%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="performance-insights">
+              <div class="insight-card">
+                <h3>📌 Recommended Focus</h3>
+                <p class="insight-highlight">Trigonometry</p>
+                <p>Your assessment shows this is your learning priority. Our AI will guide you through focused exercises.</p>
+              </div>
+
+              <div class="insight-card">
+                <h3>🎯 Suggested Career</h3>
+                <p class="insight-highlight">Data Scientist</p>
+                <p>Your strong statistics and solid algebra skills align perfectly with data science roles.</p>
+              </div>
+
+              <div class="insight-card">
+                <h3>📚 Recommended Book</h3>
+                <p class="insight-highlight">Introduction to Statistics</p>
+                <p>A comprehensive guide to strengthen your statistical foundation for advanced data work.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ai-tutor section" id="ai-mentor" data-anim>
+        <div class="container">
+          <div class="section-header" data-anim>
+            <p class="section-label">Interactive AI</p>
+            <h2>AI Mathematics Mentor</h2>
             <p>
-              Our AI chatbot is designed to act as your personal math mentor. Ask about formulas, solve homework problems, or clarify concepts anytime with a responsive digital tutor.
+              Interact with our AI-powered mentor to assess your mathematical skills, receive instant feedback, discover learning resources, and explore future career pathways.
             </p>
           </div>
-          <div class="chat-preview">
-            <div class="chat-border"></div>
-            <div class="chat-window">
-              <div class="chat-message bot">Hi! I am MathMind AI. Ask me any math question.</div>
-              <div class="chat-message user">How do I solve a quadratic equation?</div>
-              <div class="chat-message bot">I can guide you through factoring, completing the square, or using the quadratic formula.</div>
+
+          <div class="ai-grid" data-anim>
+            <div class="chat-preview">
+              <div class="chat-border"></div>
+              <div class="chat-window">
+                <div class="chat-message bot">👋 Hi! I'm MathMind AI. Ask me any math question or let's discuss your learning goals.</div>
+                <div class="chat-message user">What careers use calculus?</div>
+                <div class="chat-message bot">Great question! Calculus is essential for engineering, physics, economics, and AI. Engineers use it for design, physicists for motion analysis, and AI specialists for optimization.</div>
+              </div>
+              <div class="chat-footer">
+                <div class="chat-input-wrap">
+                  <input id="chat-input" type="text" placeholder="Ask MathMind AI..." aria-label="Chat input" />
+                  <button id="chat-send" class="btn btn-primary">Send</button>
+                </div>
+              </div>
             </div>
-            <div class="chat-footer">
-              <span>Botpress chatbot placeholder</span>
+
+            <div class="ai-media">
+              <img src="assets/images/kl.png" alt="AI Mentor illustration" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-matters section" id="why-matters" data-anim>
+        <div class="container">
+          <div class="section-header" data-anim>
+            <p class="section-label">Impact</p>
+            <h2>Why MathMind AI Matters</h2>
+            <p class="section-subtitle">Solving real challenges students face in mathematics education</p>
+          </div>
+
+          <div class="problems-grid" data-anim>
+            <div class="problem-card" data-anim>
+              <div class="problem-icon">❌</div>
+              <h3>Unidentified Weaknesses</h3>
+              <p>Many students struggle to identify weak mathematical areas, leading to frustration and missed learning.</p>
+              <div class="solution">✓ AI identifies gaps instantly</div>
+            </div>
+
+            <div class="problem-card" data-anim>
+              <div class="problem-icon">❌</div>
+              <h3>Lack of Personalization</h3>
+              <p>Students often lack personalized guidance tailored to their learning pace and style.</p>
+              <div class="solution">✓ Customized learning paths</div>
+            </div>
+
+            <div class="problem-card" data-anim>
+              <div class="problem-icon">❌</div>
+              <h3>Career Uncertainty</h3>
+              <p>Many learners don't know which career matches their mathematical strengths and interests.</p>
+              <div class="solution">✓ AI career recommendations</div>
+            </div>
+
+            <div class="problem-card" data-anim>
+              <div class="problem-icon">❌</div>
+              <h3>Delayed Feedback</h3>
+              <p>Traditional learning lacks immediate feedback, making it hard to correct mistakes quickly.</p>
+              <div class="solution">✓ Instant AI feedback</div>
+            </div>
+          </div>
+
+          <div class="solution-highlight" data-anim>
+            <h3>MathMind AI Solves These Issues Through:</h3>
+            <div class="solution-features">
+              <div class="solution-item">
+                <span class="solution-check">✓</span>
+                <div>
+                  <strong>AI-Powered Assessment</strong> — Comprehensive evaluation of mathematical skills
+                </div>
+              </div>
+              <div class="solution-item">
+                <span class="solution-check">✓</span>
+                <div>
+                  <strong>Personalized Recommendations</strong> — Tailored learning resources and career guidance
+                </div>
+              </div>
+              <div class="solution-item">
+                <span class="solution-check">✓</span>
+                <div>
+                  <strong>Real-Time Feedback</strong> — Immediate insights to improve learning
+                </div>
+              </div>
+              <div class="solution-item">
+                <span class="solution-check">✓</span>
+                <div>
+                  <strong>Career Alignment</strong> — Discover careers that match your strengths
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -164,58 +496,88 @@
         </div>
       </section>
 
-      <section class="testimonials section" data-anim>
-        <div class="container section-header">
-          <p class="section-label">Testimonials</p>
-          <h2>What students say about MathMind AI</h2>
-        </div>
-        <div class="container testimonial-grid">
-          <article class="testimonial-card" data-anim>
-            <p>“MathMind AI makes calculus feel intuitive. The AI explanations helped me study faster and stay confident.”</p>
-            <div class="testimonial-author">
-              <span>Amaya R.</span>
-              <small>Engineering Student</small>
-            </div>
-          </article>
-          <article class="testimonial-card" data-anim>
-            <p>“The interface is beautiful and the same friendly tone makes learning algebra less stressful. I recommend it for every student.”</p>
-            <div class="testimonial-author">
-              <span>Leo M.</span>
-              <small>Math Major</small>
-            </div>
-          </article>
-          <article class="testimonial-card" data-anim>
-            <p>“It feels like having a tutor 24/7. The chatbot preview is very realistic and the glowing design keeps me engaged.”</p>
-            <div class="testimonial-author">
-              <span>Sofia K.</span>
-              <small>College Sophomore</small>
-            </div>
-          </article>
-        </div>
-      </section>
-
       <section class="contact section" id="contact" data-anim>
         <div class="container section-grid">
           <div>
             <p class="section-label">Contact</p>
             <h2>Start your AI-enhanced math journey today</h2>
             <p>Send us a message and we’ll help you explore the perfect learning path for your math goals.</p>
+         <!-- Contact Section -->
+<section class="contact-section">
+  <div class="contact-container">
+    <h2 class="contact-title">Contact Us</h2>
+    <p class="contact-subtitle">We'd love to hear from you</p>
+    
+    <div class="form-card">
+      <iframe data-tally-src="https://tally.so/embed/q4zbYO?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0" title="Contact Us"></iframe>
+      <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact-section {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .contact-container {
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .contact-subtitle {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+
+  .form-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transition: transform 0.3s ease;
+  }
+
+  .form-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .form-card iframe {
+    width: 100%;
+    border: none;
+    display: block;
+    min-height: 400px;
+  }
+
+  @media (max-width: 768px) {
+    .contact-title {
+      font-size: 2rem;
+    }
+    .form-card {
+      padding: 20px;
+      border-radius: 16px;
+    }
+  }
+</style>
           </div>
-          <form class="contact-form" action="#" onsubmit="return false;">
-            <label>
-              <span>Name</span>
-              <input type="text" placeholder="Your name" required />
-            </label>
-            <label>
-              <span>Email</span>
-              <input type="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              <span>Message</span>
-              <textarea rows="5" placeholder="Tell us your math challenge"></textarea>
-            </label>
-            <button class="btn btn-primary btn-submit">Send Message</button>
-          </form>
         </div>
       </section>
     </main>
@@ -224,17 +586,107 @@
       <div class="container footer-grid">
         <div>
           <h3>MathMind AI</h3>
-          <p>AI-powered mathematics learning assistant for modern students.</p>
+          <p>AI-powered mathematics assessment, learning & career guidance platform for modern students.</p>
         </div>
-        <div class="social-links">
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
-          <a href="#">GitHub</a>
+
+        <div class="footer-links">
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="#home">Home</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <a href="#topics">Topics</a>
+            <a href="#careers">Career Paths</a>
+            <a href="#math-ai">AI Learning</a>
+          </div>
+
+          <div class="footer-section">
+            <h4>Connect</h4>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank" class="github-link">
+              <span>🔗</span> GitHub Repository
+            </a>
+          </div>
         </div>
       </div>
       <p class="footer-copy">© 2026 MathMind AI. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
-  </body>
+    <script src="script.js" defer></script>
+
+    <script>
+  (function(){
+    const chatWindow = document.querySelector('.chat-window');
+    const input = document.getElementById('chat-input');
+    const send = document.getElementById('chat-send');
+
+    function appendMessage(text, cls){
+      const div = document.createElement('div');
+      div.className = 'chat-message ' + cls;
+      div.textContent = text;
+      chatWindow.appendChild(div);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+    }
+
+    function botReply(msg){
+      const lc = msg.toLowerCase();
+      let reply = "I'm not sure, but I can help with algebra, calculus, statistics and study tips.";
+      if(lc.includes('calculus')) reply = 'Calculus is used in engineering, physics, economics, and AI.';
+      else if(lc.includes('career')) reply = 'Math careers: Data Scientist, AI Engineer, Software Developer, Research Mathematician.';
+      else if(lc.includes('algebra')) reply = 'Algebra builds symbolic reasoning and equation mastery.';
+      else if(lc.includes('hello')|| lc.includes('hi')) reply = 'Hello! Ask me any math question or tell me your learning goal.';
+      setTimeout(()=> appendMessage(reply, 'bot'), 800);
+    }
+
+    if(send) {
+      send.addEventListener('click', ()=> {
+        const text = input.value.trim();
+        if(!text) return;
+        appendMessage(text, 'user');
+        input.value = '';
+        botReply(text);
+      });
+
+      input.addEventListener('keydown', (e)=>{
+        if(e.key === 'Enter'){
+          send.click();
+        }
+      });
+    }
+  })();
+</script>
+
+<script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2026/04/28/12/20260428122917-1LM5XDSF.js"></script>
+<script>
+  const initChatButton = () => {
+    const badge = document.querySelector('.mentor-badge');
+    if (!badge) return;
+    badge.addEventListener('click', () => {
+      if (window.botpressWebChat && typeof window.botpressWebChat.open === 'function') {
+        window.botpressWebChat.open();
+      }
+      if (window.botpressWebChat && typeof window.botpressWebChat.toggle === 'function') {
+        window.botpressWebChat.toggle();
+      }
+    });
+  };
+
+  window.addEventListener('load', initChatButton);
+</script>
+<div class="mentor-badge">
+  <span class="sparkle">✨</span>
+  Meet Your AI Mentor
+</div>
+</body>
 </html>
+      padding: 20px;
+      margin: 20px;
+    }
+  }
+</style>
