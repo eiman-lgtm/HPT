@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32 48x48" href="assets/favicon/favicon.png">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MathMind AI — Learn Mathematics with AI</title>
@@ -662,6 +662,17 @@
 
 <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
 <script src="https://files.bpcontent.cloud/2026/04/28/12/20260428122917-1LM5XDSF.js"></script>
+<script>
+  window.botpressWebChat.init({
+    configUrl: "https://files.bpcontent.cloud/2026/04/28/12/20260428122918-5ISSRX75.json",
+    botName: "MathMind tutor",
+    botDescription: "AI math tutor for Algebra, Statistics, Calculus and Trigonometry. Pick a subject and difficulty to start",
+    composerPlaceholder: "Type your answer....",
+    showBotInfoPage: true,
+    layout: "website",
+    theme: "light"
+  });
+</script>
 <script>
   const initChatButton = () => {
     const badge = document.querySelector('.mentor-badge');
