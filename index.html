@@ -124,12 +124,18 @@
             </div>
 
             <div class="about-text">
+              <div class="about-highlight">
+                <span class="about-badge">Why students trust it</span>
+                <h3>Clear, personal math support that builds confidence.</h3>
+              </div>
               <p>
-                MathMind AI makes math easier with clear AI explanations and guided practice.
+                MathMind AI makes learning simpler with guided explanations and instant feedback.
               </p>
-              <p>
-                Personalized support helps students build confidence and master key concepts.
-              </p>
+              <ul class="about-points">
+                <li>Step-by-step guidance for complex topics.</li>
+                <li>Personalized support that adapts to each learner.</li>
+                <li>Career-focused insights that connect math to real opportunities.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -151,66 +157,34 @@
               <span class="symbol symbol-5">↗</span>
             </div>
 
-            <div class="cards-grid">
-              <article class="topic-card" data-anim>
-                <div class="card-border"></div>
-                <div class="topic-head">
-                  <div class="topic-icon">x²</div>
-                  <span>Algebra</span>
-                </div>
+            <div class="subjects-grid">
+              <div class="subject-card" onclick="startSubjectQuiz('Algebra')">
+                <div class="subject-icon">x²</div>
                 <h3>Algebra</h3>
                 <p>Build algebra skills with smart AI support.</p>
-                <p class="topic-career">📈 Career: Software Development</p>
-                <button class="btn btn-card" type="button">Learn More</button>
-              </article>
+                <span class="career-tag">📈 Career: Software Development</span>
+              </div>
 
-              <article class="topic-card" data-anim>
-                <div class="card-border"></div>
-                <div class="topic-head">
-                  <div class="topic-icon">∫</div>
-                  <span>Calculus</span>
-                </div>
+              <div class="subject-card" onclick="startSubjectQuiz('Calculus')">
+                <div class="subject-icon">∫</div>
                 <h3>Calculus</h3>
                 <p>Master calculus ideas with clear AI explanations.</p>
-                <p class="topic-career">🔧 Career: Engineering & Scientific Computing</p>
-                <button class="btn btn-card" type="button">Learn More</button>
-              </article>
+                <span class="career-tag">🔧 Career: Engineering & Scientific Computing</span>
+              </div>
 
-              <article class="topic-card" data-anim>
-                <div class="card-border"></div>
-                <div class="topic-head">
-                  <div class="topic-icon">sin</div>
-                  <span>Trigonometry</span>
-                </div>
+              <div class="subject-card" onclick="startSubjectQuiz('Trigonometry')">
+                <div class="subject-icon">sin</div>
                 <h3>Trigonometry</h3>
                 <p>Learn trigonometry through intuitive visual support.</p>
-                <p class="topic-career">🏗️ Career: Architecture & Engineering</p>
-                <button class="btn btn-card" type="button">Learn More</button>
-              </article>
+                <span class="career-tag">🏗️ Career: Architecture & Engineering</span>
+              </div>
 
-              <article class="topic-card" data-anim>
-                <div class="card-border"></div>
-                <div class="topic-head">
-                  <div class="topic-icon">σ</div>
-                  <span>Statistics</span>
-                </div>
+              <div class="subject-card" onclick="startSubjectQuiz('Statistics')">
+                <div class="subject-icon">σ</div>
                 <h3>Statistics</h3>
                 <p>Strengthen statistics with guided data insights.</p>
-                <p class="topic-career">📊 Career: Data Science & Analytics</p>
-                <button class="btn btn-card" type="button">Learn More</button>
-              </article>
-
-              <article class="topic-card" data-anim>
-                <div class="card-border"></div>
-                <div class="topic-head">
-                  <div class="topic-icon">⊿</div>
-                  <span>Geometry</span>
-                </div>
-                <h3>Geometry</h3>
-                <p>Visualize geometry with clear AI-led examples.</p>
-                <p class="topic-career">🎨 Career: Design & Engineering</p>
-                <button class="btn btn-card" type="button">Learn More</button>
-              </article>
+                <span class="career-tag">📊 Career: Data Science & Analytics</span>
+              </div>
             </div>
           </div>
         </div>
@@ -288,82 +262,6 @@
               <div class="career-icon">🔬</div>
               <h3>Research Mathematician</h3>
               <p>Creates advanced math models for science and innovation.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="performance-demo section" id="performance" data-anim>
-        <div class="container">
-          <div class="section-header" data-anim>
-            <p class="section-label">Dashboard</p>
-            <h2>AI Performance Analysis</h2>
-            <p class="section-subtitle">Review assessment results and targeted learning hints.</p>
-          </div>
-
-          <div class="demo-grid" data-anim>
-            <div class="performance-chart">
-              <div class="chart-title">Your Assessment Results</div>
-              
-              <div class="progress-item">
-                <div class="progress-label">
-                  <span>Algebra</span>
-                  <span class="progress-value">90%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress-fill" style="width: 90%;"></div>
-                </div>
-              </div>
-
-              <div class="progress-item">
-                <div class="progress-label">
-                  <span>Calculus</span>
-                  <span class="progress-value">75%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress-fill" style="width: 75%;"></div>
-                </div>
-              </div>
-
-              <div class="progress-item">
-                <div class="progress-label">
-                  <span>Statistics</span>
-                  <span class="progress-value">85%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress-fill" style="width: 85%;"></div>
-                </div>
-              </div>
-
-              <div class="progress-item">
-                <div class="progress-label">
-                  <span>Trigonometry</span>
-                  <span class="progress-value">60%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress-fill" style="width: 60%;"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="performance-insights">
-              <div class="insight-card">
-                <h3>📌 Recommended Focus</h3>
-                <p class="insight-highlight">Trigonometry</p>
-                <p>Focus on your highest-impact learning area.</p>
-              </div>
-
-              <div class="insight-card">
-                <h3>🎯 Suggested Career</h3>
-                <p class="insight-highlight">Data Scientist</p>
-                <p>Match your skills to a strong math career path.</p>
-              </div>
-
-              <div class="insight-card">
-                <h3>📚 Recommended Book</h3>
-                <p class="insight-highlight">Introduction to Statistics</p>
-                <p>Strengthen your stats skills with a practical guide.</p>
-              </div>
             </div>
           </div>
         </div>
@@ -468,31 +366,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="features section" data-anim>
-        <div class="container section-header">
-          <p class="section-label">Features</p>
-          <h2>Designed for easy, interactive, student-friendly learning</h2>
-        </div>
-        <div class="container features-grid">
-          <div class="feature-card" data-anim>
-            <h3>Easy Learning</h3>
-            <p>Clear steps keep math concepts simple.</p>
-          </div>
-          <div class="feature-card" data-anim>
-            <h3>AI Guidance</h3>
-            <p>Instant tutoring and tailored feedback.</p>
-          </div>
-          <div class="feature-card" data-anim>
-            <h3>Interactive Experience</h3>
-            <p>Engage with responsive AI and visual content.</p>
-          </div>
-          <div class="feature-card" data-anim>
-            <h3>Student Friendly</h3>
-            <p>Designed to reduce math anxiety and boost focus.</p>
           </div>
         </div>
       </section>
@@ -661,18 +534,7 @@
 </script>
 
 <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2026/04/28/12/20260428122917-1LM5XDSF.js"></script>
-<script>
-  window.botpressWebChat.init({
-    configUrl: "https://files.bpcontent.cloud/2026/04/28/12/20260428122918-5ISSRX75.json",
-    botName: "MathMind tutor",
-    botDescription: "AI math tutor for Algebra, Statistics, Calculus and Trigonometry. Pick a subject and difficulty to start",
-    composerPlaceholder: "Type your answer....",
-    showBotInfoPage: true,
-    layout: "website",
-    theme: "light"
-  });
-</script>
+<script src="https://files.bpcontent.cloud/2026/04/28/12/20260428122917-1LM5XDSF.js" defer></script>
 <script>
   const initChatButton = () => {
     const badge = document.querySelector('.mentor-badge');
@@ -688,6 +550,17 @@
   };
 
   window.addEventListener('load', initChatButton);
+</script>
+<script>
+function startSubjectQuiz(subject) {
+    window.botpressWebChat.sendEvent({ type: 'show' });
+    setTimeout(() => {
+        window.botpressWebChat.sendPayload({ 
+            type: 'text', 
+            text: 'Start ' + subject 
+        });
+    }, 1000);
+}
 </script>
 <div class="mentor-badge">
   <span class="sparkle">✨</span>
